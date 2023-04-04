@@ -1,4 +1,4 @@
-**QLDIEMSINHVIEN**
+**QUANLYDIEMSV**
 - KQ(**MaSV,** MaMH, Diem)
 - MON(**MaMH,** TenMH, SoTC)
 - SV(**MaSV, TenSV,** Que)
