@@ -105,7 +105,16 @@ insert into GD values(4, 2023, 'GV011', 30);
 
 update GD
 set SoTiet = 301
-where MaGV = 'GV011'
+where MaGV = 'GV011' and Thang = 4
+
+
+update GD
+set SoTiet = 31
+where MaGV = 'GV011' and Thang = 3
+
+
+
+
 
 insert into GD values(3, 2023, 'GV012', 40);
 insert into GD values(4, 2023, 'GV012', 61);
@@ -140,3 +149,23 @@ where MaDV in (
 
 
 -- Đưa ra thông tin giảng viên hàng tháng đều có số tiết dưới 60 (<60)
+select GV.* 
+from GV
+left join GD on GV.MaGV = GD.MaGV
+group by GV.MaGV
+having max(SoTiet) < 60
+
+
+-- Đưa ra thông tin giảng viên có ít nhất 1 tháng dạy dưới 60 tiết
+select * 
+from GV
+where MaGV in (
+	select MaGV
+	from GD
+	where SoTiet<60
+)
+
+select * 
+from GV
+left join GD on GV.MaGV = GD.MaGV
+left join DV on DV.MaDV = GV.MaDV

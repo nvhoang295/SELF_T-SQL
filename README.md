@@ -1,3 +1,23 @@
+# Change field's datatype
+
+[Thay đổi kiểu dữ liệu cho trường TenMH của bảng MON thành kiểu dl nvarchar(50)](/QLDIEMSINHVIEN/README.md#thay-đổi-kiểu-dữ-liệu-cho-trường-tenmh-của-bảng-mon-thành-kiểu-dl-nvarchar50)
+
+
+
+---
+# Insert values into table
+
+[Chèn thông tin vào bảng](/QLDIEMSINHVIEN/README.md#chèn-thông-tin-vào-bảng)
+
+
+
+---
+# Change record's value
+
+[Sửa lại quê quán cho sinh viên có mã '2021605634' thành Hà Nội (kiểu nvarchar)](/QLDIEMSINHVIEN/README.md#sửa-lại-quê-quán-cho-sinh-viên-có-mã-2021605634-thành-hà-nội-kiểu-nvarchar)
+
+
+---
 # **IS NULL**
 
 [Đưa ra giảng viên không dạy tiết nào](/QUANLYGIANGDAY/README.md#đưa-ra-giảng-viên-không-dạy-tiết-nào)
