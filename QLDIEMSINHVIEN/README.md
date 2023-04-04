@@ -57,6 +57,16 @@ update SV
 set Que = N'Hà Nội'
 where MaSV = '2021605634'
 ```
+# Đánh đố?
+## Ques 1: Câu lệnh trên có chạy được không, giải thích?
+```sql
+select MON.MaMH, TenMH
+from MON
+left join KQ on KQ.MaMH = MON.MaMH
+group by MON.MaMH, TenMH
+having Diem < 5
+```
+> Câu lệnh này không chạy được, khi đã nhóm thành 1 cụm theo MaMH, TenMH thì sẽ có rất nhiều giá trị Diem, nên SQL sẽ không biết so sánh với cái Diem nào
 
 
 # Ôn tập:
@@ -133,5 +143,30 @@ where SV.MaSV in(
 )
 ```
 
+## Đưa ra tên môn học có sinh viên thi được điểm dưới 5
+```sql
+select MON.TenMH
+from MON
+where MaMH in (
+	select distinct MON.MaMH
+	from MON
+	left join KQ on KQ.MaMH = MON.MaMH
+	where Diem < 5
+);
+```
+> Dùng DISTINCT để giảm thiểu phép so sánh trong list này
 
+## Đưa ra tên môn học có sinh viên đạt điểm 10
+Ý tưởng: Vì sau khi nhóm lại thì sẽ có nhiều giá trị, nên ta lấy max (mục đích đơn trị) rồi so sánh với 10
 
+```sql
+-- Đưa ra tên môn học có sinh viên đạt điểm 10
+select TenMH
+from MON
+where MaMH in (
+	select MaMH
+	from KQ
+	group by MaMH
+	having max(Diem) = 10
+);
+```

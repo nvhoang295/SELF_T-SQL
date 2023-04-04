@@ -150,7 +150,7 @@ where MaSV in (
 	FROM KQ
 	GROUP BY MaSV
 	HAVING MAX(Diem) < 4
-)
+);
 
 
 
@@ -161,4 +161,16 @@ where SV.MaSV in(
 	from KQ
 	group by MaSV
 	having min(diem)>=5
-)
+);
+
+
+
+-- Đưa ra tên môn học có sinh viên đạt điểm 10
+select TenMH
+from MON
+where MaMH in (
+	select MaMH
+	from KQ
+	group by MaMH
+	having max(Diem) = 10
+);
