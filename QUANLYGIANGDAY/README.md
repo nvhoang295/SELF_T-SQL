@@ -67,3 +67,16 @@ left join GD on GV.MaGV = GD.MaGV
 group by GV.MaGV
 having max(SoTiet) < 60
 ```
+
+
+## Đưa ra thông tin giảng viên có ít nhất 1 tháng dạy dưới 60 tiết
+```sql
+-- Đưa ra thông tin giảng viên có ít nhất 1 tháng dạy dưới 60 tiết
+select * 
+from GV
+where MaGV in (
+	select MaGV
+	from GD
+	where SoTiet<60
+)
+```

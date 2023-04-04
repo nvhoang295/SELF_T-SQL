@@ -36,5 +36,5 @@
 
 [Thông tin môn học không có sinh viên nào đạt điểm 10](/QLDIEMSINHVIEN/README.md#thông-tin-môn-học-không-có-sinh-viên-nào-đạt-điểm-10)
 
-
+[Đưa ra thông tin giảng viên có ít nhất 1 tháng dạy dưới 60 tiết](/QUANLYGIANGDAY/README.md#đưa-ra-thông-tin-giảng-viên-có-ít-nhất-1-tháng-dạy-dưới-60-tiết)
 
