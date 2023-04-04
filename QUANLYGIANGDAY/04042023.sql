@@ -135,5 +135,8 @@ where MaDV in (
 	left join GD on GV.MaGV = GD.MaGV
 	where Nam = 2023 and Thang = 4 and SoTiet > 300
 )
--- Chú ý lúc giao thì chỉ dùng thuộc tính mã, nếu không sẽ nhận về bảng rỗng
+-- !!Chú ý lúc giao thì chỉ dùng thuộc tính mã, nếu không sẽ nhận về bảng rỗng
 
+
+
+-- Đưa ra thông tin giảng viên hàng tháng đều có số tiết dưới 60 (<60)

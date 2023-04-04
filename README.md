@@ -29,6 +29,8 @@
 
 [Đưa ra danh sách sinh viên không bị điểm nào dưới 5](/QLDIEMSINHVIEN/README.md#đưa-ra-danh-sách-sinh-viên-không-bị-điểm-nào-dưới-5)
 
+[Đưa ra thông tin giảng viên hàng tháng đều có số tiết dưới 60 (<60)](/QUANLYGIANGDAY/README.md#đưa-ra-thông-tin-giảng-viên-hàng-tháng-đều-có-số-tiết-dưới-60-60)
+
 # IN/NOT IN with subquery
 [Thông tin sinh viên không bị điểm nào dưới 5](/QLDIEMSINHVIEN/README.md#thông-tin-sinh-viên-không-bị-điểm-nào-dưới-5)
 

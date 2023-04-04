@@ -47,3 +47,23 @@ where MaDV in (
 )
 -- Chú ý lúc giao thì chỉ dùng thuộc tính mã, nếu không sẽ nhận về bảng rỗng
 ```
+
+## Đưa ra thông tin giảng viên hàng tháng đều có số tiết dưới 60 (<60)
+```sql
+-- Đưa ra thông tin giảng viên hàng tháng đều có số tiết dưới 60 (<60)
+select GV.MaGV, TenGV
+from GV
+left join GD on GV.MaGV = GD.MaGV
+group by GV.MaGV, TenGV
+having max(SoTiet) < 60
+```
+
+Lưu ý tránh lỗi, trên select có gì thì dưới group có cái nấy, ví dụ như code dưới đây là **sai**!!
+```sql
+-- Đưa ra thông tin giảng viên hàng tháng đều có số tiết dưới 60 (<60)
+select GV.* 
+from GV
+left join GD on GV.MaGV = GD.MaGV
+group by GV.MaGV
+having max(SoTiet) < 60
+```
