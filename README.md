@@ -22,14 +22,22 @@
 
 [Đưa ra giảng viên không dạy tiết nào](/QUANLYGIANGDAY/README.md#đưa-ra-giảng-viên-không-dạy-tiết-nào)
 
+---
 
+
+# JOHN
+![](imgs/Johns.jpg)
 
 ---
 # **LEFT JOIN**
 
+
+
 [Đưa ra giảng viên không dạy tiết nào](/QUANLYGIANGDAY/README.md#đưa-ra-giảng-viên-không-dạy-tiết-nào)
 
 [Tìm mã và tên hàng không có khách hàng nào mua](/QUANLYBANHANG/README.md#tìm-mã-và-tên-hàng-không-có-khách-hàng-nào-mua)
+
+---
 
 
 
@@ -73,9 +81,12 @@
 
 [Đưa ra tên môn học có sinh viên đạt điểm 10](/QLDIEMSINHVIEN/README.md#đưa-ra-tên-môn-học-có-sinh-viên-đạt-điểm-10)
 
+---
 # DISTINCT
 [Đưa ra tên môn học có sinh viên thi được điểm dưới 5](/QLDIEMSINHVIEN/README.md#đưa-ra-tên-môn-học-có-sinh-viên-thi-được-điểm-dưới-5)
 
+
+---
 # Có được ném hàm trả về như: min(), max(), avg(), datetime(), ... vào trong SELECT không?
 Vì hàm đó trả về thuộc tính đơn trị nên có thể ném vào
 
@@ -86,10 +97,13 @@ Vì hàm đó trả về thuộc tính đơn trị nên có thể ném vào
 
 Những gì là thuộc tính đa trị thì không ném được vào values
 
+---
 # **MIN(SUM(...))**, **MAX(SUM(...))**
 [Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất](/QUANLYBANHANG/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-không-sử-dụng-sort)
 
 [Tên hàng được mua nhiều nhất](/QUANLYBANHANG/README.md#tên-hàng-được-mua-nhiều-nhất)
 
+
+---
 # GROUP BY vs SELECT quan hệ là gì???
 [Click me!](/QUANLYBANHANG/README.md#quan-hệ-giữa-select-và-group-by-là-gì)
