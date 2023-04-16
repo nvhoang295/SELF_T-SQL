@@ -47,3 +47,15 @@ insert into Suppliers values('SU006', 'DELL', 90, N'Hoà Bình');
 insert into Suppliers values('SU007', 'GIGABYTE', 90, N'Hoà Bình');
 insert into Suppliers values('SU008', 'LG', 90, N'Hoà Bình');
 insert into Suppliers values('SU009', 'HUAWEI', 90, N'Hoà Bình');
+
+insert into Products values('PD001', N'Laptop Asus Vivobook 15X OLED', N'Xanh', 1.7);
+insert into Products values('PD002', N'Laptop ASUS Vivobook 15X OLED', N'Bạc', 1.7);
+insert into Products values('PD003', N'Laptop Asus ZenBook OLED', N'Xám', 1.4);
+insert into Products values('PD004', N'Laptop Acer Aspire 3', N'Bạc', 1.7);
+insert into Products values('PD002', N'Laptop MSI Modern 15', N'Xám', 1.6);
+insert into Products values('PD002', N'Laptop MSI Summit E14 Evo', N'Đen', 1.6);
+insert into Products values('PD002', N'Laptop MSI Modern 14', N'Xám', 1.3);
+insert into Products values('PD002', N'Laptop MSI Creator Z16', N'Xám', 2.2);
+insert into Products values('PD002', N'', N'', );
+insert into Products values('PD002', N'', N'', );
+

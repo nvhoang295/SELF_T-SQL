@@ -98,7 +98,7 @@ Vì hàm đó trả về thuộc tính đơn trị nên có thể ném vào
 Những gì là thuộc tính đa trị thì không ném được vào values
 
 ---
-# **MIN(SUM(...))**, **MAX(SUM(...))**
+# **MIN(SUM(...))**, **MAX(SUM(...))** => Virtual table
 [Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất](/QUANLYBANHANG/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-không-sử-dụng-sort)
 
 [Tên hàng được mua nhiều nhất](/QUANLYBANHANG/README.md#tên-hàng-được-mua-nhiều-nhất)
