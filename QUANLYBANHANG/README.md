@@ -204,3 +204,4 @@ from Hang
 left join HangDat on Hang.MaHang = HangDat.MaHang
 where HangDat.SoLuong is null
 ```
+
