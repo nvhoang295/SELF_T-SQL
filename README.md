@@ -104,6 +104,9 @@ From là lấy từ một bảng, ta có thể dựa vào nó để tạo ra cá
 
 [Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất (3 cấp truy vấn)](/QUANLYBANHANG/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-không-sử-dụng-sort)
 
+-> Phương án tối ưu hơn sử dụng 2 tầng truy vấn: [click me](/QuanLyBanHang/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-sử-dụng-2-tầng-truy-vấn)
+
+
 [Tên hàng được mua nhiều nhất](/QUANLYBANHANG/README.md#tên-hàng-được-mua-nhiều-nhất)
 
 # ALL => Tối ưu hơn select lồng 3 lần, vì dùng all chỉ cần dùng 2 tầng select
