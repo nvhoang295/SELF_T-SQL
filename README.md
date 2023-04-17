@@ -99,9 +99,19 @@ Những gì là thuộc tính đa trị thì không ném được vào values
 
 ---
 # **MIN(SUM(...))**, **MAX(SUM(...))** => Virtual table
-[Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất](/QUANLYBANHANG/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-không-sử-dụng-sort)
+
+From là lấy từ một bảng, ta có thể dựa vào nó để tạo ra các virtual table để phục vụ cho mục đích truy vấn cá nhân
+
+[Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất (3 cấp truy vấn)](/QUANLYBANHANG/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-không-sử-dụng-sort)
 
 [Tên hàng được mua nhiều nhất](/QUANLYBANHANG/README.md#tên-hàng-được-mua-nhiều-nhất)
+
+# ALL => Tối ưu hơn select lồng 3 lần, vì dùng all chỉ cần dùng 2 tầng select
+
+[Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất(2 cấp truy vấn)](/QuanLyBanHang/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-sử-dụng-2-tầng-truy-vấn)
+
+
+
 
 
 ---

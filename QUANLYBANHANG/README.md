@@ -160,6 +160,14 @@ having sum(SoLuong) = (
 );
 ```
 
+## Mã hàng có số lượng đặt hàng nhỏ nhất sử dụng 2 tầng truy vấn
+```sql
+select MaHang, sum(SoLuong)
+from HangDat
+group by MaHang
+having sum(SoLuong) <= all(select sum(SoLuong) from HangDat group by MaHang)
+```
+
 ## Tên mặt hàng ít nhất 3 khách hàng mua
 ```sql
 -- Tên mặt hàng ít nhất 3 khách hàng mua
