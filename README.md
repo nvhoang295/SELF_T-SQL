@@ -111,7 +111,7 @@ From là lấy từ một bảng, ta có thể dựa vào nó để tạo ra cá
 
 # ALL => Tối ưu hơn select lồng 3 lần, vì dùng all chỉ cần dùng 2 tầng select
 
-[Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất(2 cấp truy vấn)](/QuanLyBanHang/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-sử-dụng-2-tầng-truy-vấn)
+[Đưa ra mã hàng có số lượng đặt hàng nhỏ nhất (2 cấp truy vấn)](/QuanLyBanHang/README.md#mã-hàng-có-số-lượng-đặt-hàng-nhỏ-nhất-sử-dụng-2-tầng-truy-vấn)
 
 
 
