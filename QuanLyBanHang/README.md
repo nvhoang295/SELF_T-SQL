@@ -1,4 +1,4 @@
-**QUANLYBANHANG**
+**QuanLyBanHang**
 - KhachHang(**MaKH,** TenKH, DiaChi)
 - Hang(**MaHang,** TenHang, HangSX, DonGia)
 - HangDat(**MaKH, MaHang,** SoLuong, NgayGiao)

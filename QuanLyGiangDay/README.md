@@ -1,4 +1,4 @@
-**QUANLYGIANGDAY**
+**QuanLyGiangDay**
 - GV(**MaGV,** TenGV, MaDV)
 - DV(**MaDV,** TenDV, DT)
 - GD(**Thang, Nam, MaGV,** SoTiet)
@@ -58,7 +58,7 @@ group by GV.MaGV, TenGV
 having max(SoTiet) < 60
 ```
 
-Lưu ý tránh lỗi, trên select có gì thì dưới group có cái nấy, ví dụ như code dưới đây là **sai**!!
+Lưu ý tránh lỗi, trên select có gì thì dưới group có cái nấy (trừ hàm), ví dụ như code dưới đây là **sai**!!
 ```sql
 -- Đưa ra thông tin giảng viên hàng tháng đều có số tiết dưới 60 (<60)
 select GV.* 
